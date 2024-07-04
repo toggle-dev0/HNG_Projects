@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(100, 149, 237);
+    line-height: 1.5em;
+    font-size: 1rem;
+}
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 15px 0;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.nav-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    padding: 0;
+}
+.nav-bar a:link {
+    border: none;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom .3s;
+}
+.nav-bar a:hover {
+    border-bottom: 3px solid rgb(100, 149, 237);
+    transition: font-size .3s;
+}
+.nav-bar a:active {
+    border-bottom: none;
+    font-size: 1.2rem;
+}
+li {
+    margin: 0 5px;
+}
+li .nav-link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    color: rgb(100, 149, 237);
+}
+.clock {
+    background-color: rgb(221, 221, 221);
+    color: rgb(100, 149, 237);
+    font-size: 20px;
+    padding: 5px 8px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 10px 0;
+}
+main a {
+    text-decoration: none;
+    color: rgb(100, 149, 237);
+}
+section {
+    margin-bottom: 10px;
+}
+.hero {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.hero picture {
+    display: block;
+    height: 450px;
+}
+.opening {
+    background-color: rgb(255, 255, 255);
+    padding: 8px 20px;
+}
+.middlegame-1, .middlegame-2 {
+    display: flex;
+    flex-flow: row nowrap;
+    box-sizing: border-box;
+}
+.img-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.middlegame-1 picture {
+    display: block;
+    height: 500px;
+}
+.middlegame-2 picture {
+    display: block;
+    height: 500px;
+    overflow: hidden;
+}
+.text {
+    padding: 8px 20px;
+    background-color: rgb(255, 255, 255);
+}
+.endgame {
+    background-color: rgb(255, 255, 255);
+    padding: 8px 20px;
+}
+.about {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    width: 100%;
+}
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: rgb(155, 194, 234);
+    overflow: hidden;
+}
+.profile-info {
+    padding: 8px;
+    overflow: auto;
+}
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0 10px;
+}
+footer #day, footer a:link, footer a:visited {
+    color: rgb(100, 149, 237);
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 6px;
+    border: 2px solid transparent;
+}
+footer a:link, footer a:visited {
+    display: inline-block;
+    text-decoration: none;
+    transition: all .3s;
+}
+footer a:hover {
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(100, 149, 237);
+    transition: font-size .3s;
+}
+footer a:active {
+    font-size: 1.2rem;
+}
+footer #day {
+    background-color: rgb(221, 221, 221);
+}
