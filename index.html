@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tales of a Developer</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/styleformobile.css"
+      media="screen and (max-width: 900px)"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="clock">
+        <p data-testid="currentTimeUTC" id="time"></p>
+      </div>
+      <nav>
+        <ul class="nav-bar">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <picture>
+          <source media="(max-width: 900px)" srcset="./Images/hero-1-md.jpg" />
+          <img src="./images/hero-1-lg.jpg" alt="Hero image" />
+        </picture>
+      </section>
+      <section id="home" class="opening">
+        <article>
+          <p>
+            Frontend development is a crucial aspect of web development, as it
+            involves creating the user interface that allows users to interact
+            with a website or application. As a college student studying
+            computer science, I am already familiar with HTML, CSS, and
+            JavaScript, but I want to deepen my understanding of these languages
+            and learn new technologies and frameworks that will help me become a
+            more proficient frontend developer. In the next two years, I plan on
+            focusing on honing my skills in frontend development.
+          </p>
+        </article>
+      </section>
+      <section class="middlegame-1">
+        <div class="img-container">
+          <picture>
+            <source
+              media="(max-width: 900px)"
+              srcset="./images/react-md.jpg"
+            />
+            <img src="./images/react-lg.jpg" alt="React picture" />
+          </picture>
+        </div>
+        <div class="text">
+          <h1>How would I do this?</h1>
+          <p>
+            One of my main goals is to become proficient in React, a popular
+            JavaScript library for building user interfaces. React is widely
+            used in the industry and is known for its efficiency and
+            flexibility. By mastering React, I will be able to create dynamic
+            and interactive user interfaces that will enhance the user
+            experience. I also plan on learning other frontend development tools
+            and frameworks such as Angular, Vue.js, and SASS to expand my skill
+            set and stay competitive in the job market.
+          </p>
+        </div>
+      </section>
+      <section class="middlegame-2">
+        <div class="text">
+          <p>
+            In addition to learning new technologies, I also plan on gaining
+            real-world experience by working on personal projects and
+            contributing to open-source projects. A way I found to work on
+            real-world projects is by joining the
+            <a
+              href="https://www.hng.tech/learn"
+              data-testid="hngLink"
+              target="_blank"
+              >2024 HNG11 internship</a
+            >.
+            By building my own websites and applications, I will be able to
+            apply my knowledge in a practical setting and showcase my skills to
+            potential employers. Contributing to open-source projects will also
+            allow me to collaborate with other developers, learn from their
+            expertise, and make a positive impact on the developer community.
+          </p>
+        </div>
+        <div class="img-container">
+          <picture>
+            <source
+              media="(max-width: 900px)"
+              srcset="./images/teamwork-md.jpg"
+            />
+            <img src="./images/teamwork-lg.jpg" alt="A computer" />
+          </picture>
+        </div>
+      </section>
+      <section class="endgame">
+        <article>
+          <p>
+            Overall, my plans for frontend development in the next two years
+            involve continuous learning, hands-on experience, and collaboration
+            with other developers. By focusing on mastering new
+            technologies/tools e.g
+            <a
+              href="https://www.keyword.dog"
+              data-testid="keywordLink"
+              target="_blank"
+              >Keyword.dog</a
+            >
+            and
+            <a
+              href="https://www.scrapeanyweb.site"
+              target="_blank"
+              data-testid="scrapeanywebLink"
+              >Scrapeanyweb.site</a
+            >, building personal projects, and contributing to open-source
+            projects, I hope to become a skilled and well-rounded frontend
+            developer who is ready to take on the challenges of the rapidly
+            evolving tech industry. I am excited about the opportunities that
+            lie ahead and look forward to seeing where my frontend development
+            journey will take me.
+          </p>
+        </article>
+      </section>
+      <section id="about" class="about">
+        <div class="profile-pic-container">
+          <div class="profile-pic">
+            <img
+              data-testid="slackProfilePicture"
+              src="./images/profile-picture.jpg"
+              alt="Profile Picture"
+            />
+          </div>
+        </div>
+        <div class="profile-info">
+          <h1 data-testid="slackDisplayName">
+            Name: Munachimso Joshua Enabulele
+          </h1>
+          <h2 data-testid="slackEmail">
+            Email: munachienabulele2505@gmail.com
+          </h2>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p id="day" data-testid="currentDay"></p>
+      </div>
+      <div id="contact" class="contact">
+        <a href="mailto:munachienabulele2505@gmail.com">Send a mail</a>
+      </div>
+      <div class="back-to-top">
+        <a href="#">Back to top</a>
+      </div>
+      <div class="copyright">
+        <p>&copy; M.J. Enabulele 2024</p>
+      </div>
+    </footer>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
