@@ -1,1 +1,1 @@
-#A Static Single Page Website
+A Static Single Page Website
